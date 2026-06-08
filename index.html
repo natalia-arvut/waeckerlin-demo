@@ -40,8 +40,8 @@
 <header id="nav" class="fixed top-0 inset-x-0 z-50 transition-colors duration-500">
   <nav class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
     <a href="#top" class="text-white leading-none">
-      <span class="block font-display text-xl md:text-[1.35rem] tracking-tight" style="font-weight:700">Wäckerlin <span class="text-steel">Carreisen</span></span>
-      <span class="block eyebrow text-white/60 mt-1" style="font-size:.55rem">seit 1932 · Zürich</span>
+      <span class="block font-display text-xl md:text-[1.35rem] tracking-tight" style="font-weight:700">Wäckerlin <span style="color:#2E6E9E">Carreisen</span></span>
+      <span class="block eyebrow text-white/70 mt-1" style="font-size:.55rem">seit 1932 · Zürich</span>
     </a>
     <div class="hidden lg:flex items-center gap-8 text-[0.82rem] font-medium text-white/90">
       <a class="ul-steel" href="#business">Homepage</a>
@@ -55,27 +55,28 @@
 </header>
 
 <!-- HERO -->
-<section id="top" class="relative min-h-[88vh] flex items-center overflow-hidden">
+<section id="top" class="relative h-screen min-h-[640px] flex items-center overflow-hidden">
   <div class="absolute inset-0">
-    <img src="images/bus-man.jpg" class="slide active w-full h-full object-cover" style="object-position:center" alt="MAN Reisebus der Wäckerlin Carreisen AG in den Bergen">
-    <img src="images/bus-zsc.jpg" class="slide w-full h-full object-cover" style="object-position:center" alt="Doppelstock-Reisebus der Wäckerlin Carreisen AG">
-    <img src="images/bus-setra.jpg" class="slide w-full h-full object-cover" style="object-position:center" alt="Setra Reisebus der Wäckerlin Carreisen AG">
-    <div class="absolute inset-0" style="background:linear-gradient(100deg, rgba(20,23,28,.82) 0%, rgba(20,23,28,.5) 45%, rgba(20,23,28,.12) 100%)"></div>
+    <img src="images/hero-man.jpg" class="slide active w-full h-full object-cover" style="object-position:center" alt="MAN Reisebus der Wäckerlin Carreisen AG in den Schweizer Alpen">
+    <img src="images/hero-zsc.jpg" class="slide w-full h-full object-cover" style="object-position:center" alt="Doppelstock-Reisebus der Wäckerlin Carreisen AG in den Schweizer Alpen">
+    <img src="images/hero-setra.jpg" class="slide w-full h-full object-cover" style="object-position:center" alt="Setra Reisebus der Wäckerlin Carreisen AG in den Schweizer Alpen">
+    <div class="absolute inset-0" style="background:linear-gradient(100deg, rgba(20,23,28,.80) 0%, rgba(20,23,28,.42) 42%, rgba(20,23,28,0) 72%)"></div>
+    <div class="absolute inset-x-0 top-0 h-32" style="background:linear-gradient(180deg, rgba(20,23,28,.55), rgba(20,23,28,0))"></div>
   </div>
-  <div class="relative max-w-7xl mx-auto px-6 lg:px-10 w-full pt-28 pb-20">
+  <div class="relative max-w-7xl mx-auto px-6 lg:px-10 w-full pt-24 pb-16">
     <div class="max-w-2xl">
-      <p class="eyebrow mb-6" style="color:#7FB2D6">seit 1932</p>
+      <p class="eyebrow mb-6" style="color:#9CC6E6">seit 1932</p>
       <h1 class="font-display text-white text-[2.7rem] sm:text-6xl lg:text-7xl leading-[1.02] tracking-tight" style="font-weight:700">Wäckerlin<br>Carreisen AG</h1>
-      <p class="mt-6 text-white/90 text-xl md:text-2xl font-light font-display">seit 1932 sicher und zuverlässig unterwegs</p>
+      <p class="mt-6 text-white/95 text-xl md:text-2xl font-light font-display">seit 1932 sicher und zuverlässig unterwegs</p>
       <div class="rule my-8"></div>
-      <p class="text-white/80 text-lg max-w-xl">TopClass Reisebusse mit 25 bis 78 Sitzplätzen. Ihr Logistikpartner im Personentransportbereich für Anlässe von 10&nbsp;–&nbsp;500 Gästen.</p>
+      <p class="text-white/85 text-lg max-w-xl">TopClass Reisebusse mit 25 bis 78 Sitzplätzen. Ihr Logistikpartner im Personentransportbereich für Anlässe von 10&nbsp;–&nbsp;500 Gästen.</p>
       <div class="mt-9 flex flex-wrap gap-4">
         <a href="#angebote" class="bg-steel hover:bg-steeldk transition-colors duration-300 text-white px-8 py-4 text-[0.82rem] font-semibold tracking-widest uppercase">Zu den Angeboten</a>
-        <a href="#kontakt" class="border border-white/45 hover:border-white hover:bg-white/10 text-white px-8 py-4 text-[0.82rem] font-semibold tracking-widest uppercase transition-colors duration-300">Kontakt</a>
+        <a href="#kontakt" class="border border-white/50 hover:border-white hover:bg-white/10 text-white px-8 py-4 text-[0.82rem] font-semibold tracking-widest uppercase transition-colors duration-300">Kontakt</a>
       </div>
     </div>
   </div>
-  <a href="#business" aria-label="Nach unten" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/70 hover:text-steel transition-colors z-10">
+  <a href="#business" aria-label="Nach unten" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80 hover:text-steel transition-colors z-10">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" class="animate-bounce"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
   </a>
 </section>
@@ -102,16 +103,15 @@
 </section>
 
 <!-- KOMFORT -->
-<section class="py-24 lg:py-32 bg-mist">
+<section id="komfort" class="py-24 lg:py-32 bg-mist">
   <div class="max-w-7xl mx-auto px-6 lg:px-10">
     <div class="max-w-2xl mb-14 reveal">
       <p class="eyebrow text-steel mb-4">Komfort &amp; Technik</p>
       <h2 class="font-display text-ink text-3xl md:text-4xl leading-tight" style="font-weight:600">Für ein komfortables und gehobenes Reisen sorgen für Sie:</h2>
     </div>
-    <div class="grid md:grid-cols-2 gap-6">
-      <!-- Fernreisebestuhlungen (Foto) -->
+    <div class="grid md:grid-cols-3 gap-6">
       <div class="bg-white border border-line overflow-hidden reveal">
-        <div class="img-zoom overflow-hidden h-64"><img src="images/interior-seats.png" alt="Fernreisebestuhlung im Reisebus" class="w-full h-full object-cover"></div>
+        <div class="img-zoom overflow-hidden h-56"><img src="images/interior1.png" alt="Fernreisebestuhlung im Reisebus" class="w-full h-full object-cover"></div>
         <div class="p-7">
           <h3 class="font-display text-ink text-xl mb-3" style="font-weight:600">Fernreisebestuhlungen</h3>
           <ul class="text-slate space-y-1.5 text-[0.95rem]">
@@ -123,28 +123,28 @@
           </ul>
         </div>
       </div>
-      <!-- Bistrobestuhlung (Foto) -->
       <div class="bg-white border border-line overflow-hidden reveal">
-        <div class="img-zoom overflow-hidden h-64"><img src="images/servicetisch.png" alt="Bistrobestuhlung im Unterdeck mit Servicetisch" class="w-full h-full object-cover"></div>
+        <div class="img-zoom overflow-hidden h-56"><img src="images/interior2.png" alt="Bistrobestuhlung im Unterdeck" class="w-full h-full object-cover"></div>
         <div class="p-7">
           <h3 class="font-display text-ink text-xl mb-3" style="font-weight:600">Bistrobestuhlung im Unterdeck</h3>
           <p class="text-slate text-[0.95rem]">für die Erfrischung unterwegs</p>
         </div>
       </div>
-      <!-- Panoramadeck (Icon) -->
-      <div class="bg-white border border-line p-7 flex flex-col reveal">
-        <span class="inline-flex w-12 h-12 items-center justify-center border border-steel/30 text-steel mb-5">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7l9-4 9 4M4 7v12a1 1 0 001 1h14a1 1 0 001-1V7M4 11h16"/></svg>
-        </span>
-        <h3 class="font-display text-ink text-xl mb-2" style="font-weight:600">Panoramadeck mit Glasdach</h3>
-        <p class="text-slate text-[0.95rem]">das einzigartige Ausflugserlebnis</p>
+      <div class="bg-white border border-line overflow-hidden reveal">
+        <div class="img-zoom overflow-hidden h-56"><img src="images/interior3.png" alt="Panoramadeck mit Glasdach" class="w-full h-full object-cover"></div>
+        <div class="p-7">
+          <h3 class="font-display text-ink text-xl mb-3" style="font-weight:600">Panoramadeck mit Glasdach</h3>
+          <p class="text-slate text-[0.95rem]">das einzigartige Ausflugserlebnis</p>
+        </div>
       </div>
-      <!-- MAN Euro 6 (Icon, hell) -->
-      <div class="bg-white border border-line p-7 flex flex-col reveal">
-        <span class="inline-flex w-12 h-12 items-center justify-center border border-steel/30 text-steel mb-5">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1-5a2 2 0 012-1.6h8A2 2 0 0116 8l1 5M5 13h14M5 13v3m14-3v3M7 16h.01M17 16h.01"/></svg>
-        </span>
-        <h3 class="font-display text-ink text-xl mb-2" style="font-weight:600">MAN-Motortechnologie Euro 6</h3>
+    </div>
+    <!-- MAN Euro 6 -->
+    <div class="mt-6 bg-white border border-line p-7 flex items-start gap-5 reveal">
+      <span class="inline-flex w-12 h-12 shrink-0 items-center justify-center border border-steel/30 text-steel">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1-5a2 2 0 012-1.6h8A2 2 0 0116 8l1 5M5 13h14M5 13v3m14-3v3M7 16h.01M17 16h.01"/></svg>
+      </span>
+      <div>
+        <h3 class="font-display text-ink text-xl mb-1" style="font-weight:600">MAN-Motortechnologie Euro 6</h3>
         <p class="text-slate text-[0.95rem]">Alle Fahrzeuge werden von der neuesten Motorengeneration angetrieben und schonen somit unsere Umweltrecurcen</p>
       </div>
     </div>
@@ -155,23 +155,23 @@
 <section class="py-24 lg:py-28 bg-graphite text-white">
   <div class="max-w-7xl mx-auto px-6 lg:px-10">
     <div class="max-w-2xl mb-12 reveal">
-      <p class="eyebrow mb-4" style="color:#7FB2D6">Sicherheit</p>
+      <p class="eyebrow mb-4" style="color:#9CC6E6">Sicherheit</p>
       <h2 class="font-display text-3xl md:text-4xl leading-tight" style="font-weight:600">Zur Sicherheit unserer Fahrgäste tragen folgende Assistenten bei:</h2>
     </div>
     <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-3.5 reveal">
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Abstandsregler</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Spurhalteassisten</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Bremsassistet</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Rückfahrkamera</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Elektrische Feststellbremse</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Abstandsgeregelter Tempomat</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Elektronisch gesteuertes Fahrwerk</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Elektronisches Bremssystem</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Notbremsassistent</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Elektronisches Stabilitätsprogramm</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Dauerbremsenmanagement mit Bremsomat und Tempomat</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Umkippschutz</li>
-      <li class="flex items-start gap-3 text-white/85"><span style="color:#7FB2D6" class="mt-1.5">▪</span>Aufmerksamkeitsassistent</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Abstandsregler</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Spurhalteassisten</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Bremsassistet</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Rückfahrkamera</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Elektrische Feststellbremse</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Abstandsgeregelter Tempomat</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Elektronisch gesteuertes Fahrwerk</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Elektronisches Bremssystem</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Notbremsassistent</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Elektronisches Stabilitätsprogramm</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Dauerbremsenmanagement mit Bremsomat und Tempomat</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Umkippschutz</li>
+      <li class="flex items-start gap-3 text-white/85"><span style="color:#9CC6E6" class="mt-1.5">▪</span>Aufmerksamkeitsassistent</li>
     </ul>
   </div>
 </section>
@@ -188,7 +188,7 @@
       </div>
     </div>
     <div class="reveal order-1 lg:order-2">
-      <div class="img-zoom overflow-hidden border border-line bg-ink">
+      <div class="img-zoom overflow-hidden border border-line">
         <img src="images/history-1932.jpg" alt="Wäckerlin Car auf einem Alpenpass – Fahrzeuge von damals, seit 1932" class="w-full h-auto object-cover">
       </div>
       <p class="eyebrow text-slate mt-4" style="font-size:.62rem">Fahrzeuge / Requisiten von damals</p>
@@ -200,7 +200,7 @@
 <section id="kontakt" class="py-24 lg:py-32 bg-ink text-white">
   <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16">
     <div class="reveal">
-      <p class="eyebrow mb-6" style="color:#7FB2D6">Kontaktaufnahme</p>
+      <p class="eyebrow mb-6" style="color:#9CC6E6">Kontaktaufnahme</p>
       <h2 class="font-display text-4xl md:text-5xl leading-[1.05] mb-3" style="font-weight:700">WÄCKERLIN<br>CARREISEN AG</h2>
       <p class="text-white/70 text-lg font-light">seit 1932 sicher und zuverlässig für Sie unterwegs</p>
       <a href="tel:+41443114141" class="mt-9 inline-flex items-center gap-3 bg-steel hover:bg-steeldk text-white px-8 py-4 text-[0.82rem] font-semibold tracking-widest transition-colors">+41 44 311 41 41</a>
@@ -208,9 +208,9 @@
     <div class="reveal grid sm:grid-cols-2 gap-x-10 gap-y-8 text-[0.95rem]">
       <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Adresse</p><p class="text-white/90 leading-relaxed">WÄCKERLIN CARREISEN AG<br>Berninastrasse 112<br>CH-8057 Zürich</p></div>
       <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Telefon</p><p class="text-white/90">Tel. +41 44 311 41 41</p></div>
-      <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">E-Mail</p><a href="mailto:postmaster@waeckerlin-car.ch" class="ul-steel" style="color:#7FB2D6">postmaster@waeckerlin-car.ch</a></div>
-      <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Finanzen</p><p class="text-white/70">Debitoren-/Kreditorenabteilung:</p><a href="mailto:finanzen@waeckerlin-car.ch" class="ul-steel" style="color:#7FB2D6">finanzen@waeckerlin-car.ch</a></div>
-      <div class="sm:col-span-2"><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Geschäftsleitung</p><p class="text-white/90">Hansjörg Wäckerlin · <a href="mailto:hj.waeckerlin@waeckerlin-car.ch" class="ul-steel" style="color:#7FB2D6">hj.waeckerlin@waeckerlin-car.ch</a></p></div>
+      <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">E-Mail</p><a href="mailto:postmaster@waeckerlin-car.ch" class="ul-steel" style="color:#9CC6E6">postmaster@waeckerlin-car.ch</a></div>
+      <div><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Finanzen</p><p class="text-white/70">Debitoren-/Kreditorenabteilung:</p><a href="mailto:finanzen@waeckerlin-car.ch" class="ul-steel" style="color:#9CC6E6">finanzen@waeckerlin-car.ch</a></div>
+      <div class="sm:col-span-2"><p class="eyebrow text-white/40 mb-3" style="font-size:.6rem">Geschäftsleitung</p><p class="text-white/90">Hansjörg Wäckerlin · <a href="mailto:hj.waeckerlin@waeckerlin-car.ch" class="ul-steel" style="color:#9CC6E6">hj.waeckerlin@waeckerlin-car.ch</a></p></div>
     </div>
   </div>
 </section>
@@ -219,7 +219,7 @@
 <footer class="bg-graphite text-white/60">
   <div class="max-w-7xl mx-auto px-6 lg:px-10 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
     <div>
-      <p class="font-display text-white text-xl" style="font-weight:700">Wäckerlin <span style="color:#7FB2D6">Carreisen AG</span></p>
+      <p class="font-display text-white text-xl" style="font-weight:700">Wäckerlin <span style="color:#2E6E9E">Carreisen AG</span></p>
       <p class="eyebrow text-white/40 mt-2" style="font-size:.58rem">seit 1932 sicher und zuverlässig unterwegs</p>
     </div>
     <div class="flex flex-wrap gap-x-7 gap-y-2 text-sm">
@@ -240,7 +240,6 @@
   onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
   const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:0.12});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-  // hero slideshow
   (function(){
     const slides=[...document.querySelectorAll('.slide')]; let i=0;
     const mq=window.matchMedia('(prefers-reduced-motion: reduce)');
